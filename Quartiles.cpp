@@ -1,10 +1,7 @@
 // Quartiles! HackerRank
 
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
+#include <bits/stdc++.h>
+
 using namespace std;
 
 
@@ -24,15 +21,6 @@ int main() {
      for(int i=(n/2);i<n;i++){
          c[i-(n/2)] = a[i];
      }
-    //  for(int i=0;i<n;i++){
-    //      cout << a[i] << ' ';
-    //  }cout<<endl;
-    //  for(int i=0;i<n/2;i++){
-    //      cout << b[i] << ' ';
-    //  }cout<<endl;
-    //  for(int i=0;i<n/2;i++){
-    //      cout << c[i] << ' ';
-    //  }
      
     }
     if(n%2 != 0){
